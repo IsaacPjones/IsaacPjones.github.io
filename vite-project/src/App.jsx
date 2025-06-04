@@ -7,7 +7,7 @@ function App() {
 
       <section id="home" className="h-screen bg-white flex items-center justify-center pt-24">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h1 className="text-800xl font-bold">Welcome to My Site</h1>
+          <h1 className="text-8xl font-bold">Welcome to My site</h1>
         </div>
       </section>
 
