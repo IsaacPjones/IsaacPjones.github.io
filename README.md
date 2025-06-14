@@ -1,4 +1,8 @@
-# IsaacPjones.github.io
+# Isaac Jones Mini Project
+
+## Project Details
+
+I wanted to use this opportunity to build a personal portfolio website. I believe this is a smart way to not only learn the basics of HTML, CSS, and JavaScript, but also to create a space where I can showcase my past projects and share a bit about myself with future employers.
 
 
 ## Tech Stack
