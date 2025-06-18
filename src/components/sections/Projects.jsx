@@ -1,8 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 import Newton from "../../assets/newton1.png";
-import MMA from "../../assets/plot1.png";
-import MMA2 from "../../assets/plot2.png";
+import MMA from "assets/plot1.png";
+import MMA2 from "../assets/plot2.png";
 
 
 

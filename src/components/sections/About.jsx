@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import Isaac from "../../assets/Isaac.jpeg";
+import Isaac from "../assets/Isaac.jpeg";
 
 export const About = () => {
     const skills = [
