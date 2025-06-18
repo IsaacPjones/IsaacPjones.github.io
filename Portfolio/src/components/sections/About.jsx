@@ -36,7 +36,7 @@ export const About = () => {
 Outside of tech, I’m a big fan of the outdoors and spending time in nature. I enjoy photography, watching mixed martial arts, and being around animals, anything that lets me slow down and connect with the world around me.
  Whether I’m hiking, working on a project, or learning something new, I’m always curious and hands-on.
                 </p>
-                <h3 className="text-2xl font-bold mb-4"> Where To Find Me</h3>
+                <h3 className="text-2xl font-bold mb-3"> Where To Find Me</h3>
                 <div classNAme="flex justify-between items-center">
                         <a href="https://www.linkedin.com/in/isaac-jones-8a863a29a/" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
                         Linkedin </a>
@@ -47,7 +47,14 @@ Outside of tech, I’m a big fan of the outdoors and spending time in nature. I 
                         Github </a>
                         </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">   
+                        
+                        <div classNAme="flex justify-between items-center">
+                        <a href="https://www.flickr.com/people/203008390@N07/" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
+                        Flickr (see my photography) </a>
+                        </div>
+
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-12">   
                     <div className="rounded-xl pl-6 hover:-translate-y-1 transition-all">
                           <h3 className="text-2xl font-bold mb-4">
                             Skills
