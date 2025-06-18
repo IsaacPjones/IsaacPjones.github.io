@@ -8,7 +8,7 @@ export const Navbar = (menuOpen, setMenuOpen) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10,10,10,0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="text-xl font-mono font-bold text-white">
+          <a href="#" className="text-xl font-mono font-bold text-white">
             Isaac<span className="text-[#f7c12f]">.Jones</span>{" "}
           </a>
 
@@ -21,7 +21,7 @@ export const Navbar = (menuOpen, setMenuOpen) => {
 
           <div className="hidden md:flex items-center space-x-8">
             <a
-              href="#home"
+              href="#"
               className="text-gray-300 hover:text-white transition-colors"
             >
               Home

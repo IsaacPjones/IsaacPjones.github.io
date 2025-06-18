@@ -1,16 +1,17 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
+
 export const Projects = () => {
     return <section id="projects" className="min-h-screen flex items-center justify-center py-20">
         <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
-            <h2 className="text-5xl font-bold mb-8 bg-[linear-gradient(to_bottom,#ff4db8,#fcd34d,#1dd3f8)] bg-clip-text text-transparent text-center">
+            <h2 className="text-6xl font-bold mb-8 bg-cyan-500 bg-clip-text text-transparent text-center">
                 Featured Projects
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
 
-                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
-                    <h3 className="text-xl font-bold mb-2">
+                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-cyan-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
+                    <h3 className="text-2xl font-extrabold mb-2">
                         Mix Martial Arts Analysis
                     </h3>
                     <p className ="text-gray-400 mb-4">
@@ -19,13 +20,20 @@ export const Projects = () => {
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {["Python", "NumPy", "Pandas"].map((tech, key) => (
-                            <span key={key} className="bg-[#fld] text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                            <span key={key} className="bg-[#fld] text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20
                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">{tech}</span>
                         ))}
                     </div>
 
                     <div classNAme="flex justify-between items-center">
-                        <a href="#" className="text-blue-500 hover:text-blue-400 transition-colors"> View Project </a>
+                        <a href="https://github.com/IsaacPjones/MMA-Analysis" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
+                        View Github Repo </a>
+                        <div>
+                <img src="src/assets/plot1.png" alt="A plot showing the win rate in each weight class for height and reach advatange" className="w-190 h-100 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+            </div>
+            <div>
+                <img src="src/assets/plot2.png" alt="A plot showing the win rate of lbs difference in heavyweight" className="w-190 h-120 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+            </div>
                     </div>
 
 
@@ -33,8 +41,8 @@ export const Projects = () => {
 
                 </div>
 
-                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
-                    <h3 className="text-xl font-bold mb-2">
+                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-cyan-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
+                    <h3 className="text-2xl font-extrabold mb-2">
                         Newton Fractal Visualization
                     </h3>
                     <p className ="text-gray-400 mb-4">
@@ -43,14 +51,19 @@ export const Projects = () => {
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {["C++"].map((tech, key) => (
-                            <span key={key} className="bg-[#fld] text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                            <span key={key} className="bg-[#fld] text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20
                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">{tech}</span>
                         ))}
                     </div>
 
                     <div classNAme="flex justify-between items-center">
-                        <a href="#" className="text-blue-500 hover:text-blue-400 transition-colors"> View Project </a>
+                        <a href="https://github.com/IsaacPjones/Newton-Fractal-Visulization" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
+                        View Github Repo </a>
                     </div>
+
+                    <div>
+                <img src="src/assets/newton1.png" alt="A plot showing the win rate in each weight class for height and reach advatange" className="w-190 h-180 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+            </div>
 
 
                     
