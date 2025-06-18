@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import Isaac from "../../assets/Isaac.jpeg";
 
 export const About = () => {
     const skills = [
@@ -25,7 +26,7 @@ export const About = () => {
             </h2>
 
             <div>
-                <img src="src/assets/Isaac.jpeg" alt="A photo of Isaac Jones" className="w-60 h-60 rounded-full mx-auto mb-6 border-4 border-white/10 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+                <img src={Isaac} alt="A photo of Isaac Jones" className="w-60 h-60 rounded-full mx-auto mb-6 border-4 border-white/10 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
             </div>
             <div className="rounded-xl  pb-4 pl-8 border-white/10 border transition-all">
                 <p className="text-gray-300 mb-6">

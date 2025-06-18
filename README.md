@@ -19,7 +19,7 @@ Additionally, I chose this tech stack to reflect the technologies I’ll be usin
 
 ## Low Fidelity Wireframe
 
-![My handdrawn website wireframe in low fidelity](Portfolio/src/assets/wireframe.jpg)
+![My handdrawn website wireframe in low fidelity](src/assets/wireframe.jpg)
 
 At the top will be the navigation bar. On the left, I will either have a logo or just my name — clicking it will bring you to the landing page.  
 To the right on the nav bar will be four buttons: Home, About Me, Projects, and Contact. Each of these, once clicked, will bring you to that section.
