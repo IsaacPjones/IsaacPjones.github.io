@@ -29,10 +29,10 @@ export const Projects = () => {
                         <a href="https://github.com/IsaacPjones/MMA-Analysis" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
                         View Github Repo </a>
                         <div>
-                <img src="IsaacPjones.github.io/src/assets/plot1.png" alt="A plot showing the win rate in each weight class for height and reach advatange" className="w-190 h-100 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+                <img src="src/assets/plot1.png" alt="A plot showing the win rate in each weight class for height and reach advatange" className="w-190 h-100 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
             </div>
             <div>
-                <img src="IsaacPjones.github.io/src/assets/plot2.png" alt="A plot showing the win rate of lbs difference in heavyweight" className="w-190 h-120 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+                <img src="src/assets/plot2.png" alt="A plot showing the win rate of lbs difference in heavyweight" className="w-190 h-120 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
             </div>
                     </div>
 
@@ -62,7 +62,7 @@ export const Projects = () => {
                     </div>
 
                     <div>
-                <img src="IsaacPjones.github.io/src/assets/newton1.png" alt="A plot showing the win rate in each weight class for height and reach advatange" className="w-190 h-180 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+                <img src="src/assets/newton1.png" alt="A plot showing the win rate in each weight class for height and reach advatange" className="w-190 h-180 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
             </div>
 
 
