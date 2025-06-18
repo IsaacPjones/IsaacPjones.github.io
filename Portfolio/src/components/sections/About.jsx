@@ -30,10 +30,22 @@ export const About = () => {
             <div className="rounded-xl  pb-4 pl-8 border-white/10 border transition-all">
                 <p className="text-gray-300 mb-6">
                     <br></br>
-                    not final text "I'm a student at Simon Fraser University, studying Computer Science and Business. 
-                    I enjoy being creative and building things that people can use. In my free time I enjoy
-                    photography, watching mixed martial arts, and spending time with friends and family.""
+                    Hi I'm Isaac, a Computer Science and Business student at Simon Fraser University with a passion for building practical, creative solutions that people actually enjoy using.
+                     I love exploring how things work, whether it’s writing code, tinkering with computer hardware, or getting under the hood of my car.
+
+Outside of tech, I’m a big fan of the outdoors and spending time in nature. I enjoy photography, watching mixed martial arts, and being around animals, anything that lets me slow down and connect with the world around me.
+ Whether I’m hiking, working on a project, or learning something new, I’m always curious and hands-on.
                 </p>
+                <h3 className="text-2xl font-bold mb-4"> Where To Find Me</h3>
+                <div classNAme="flex justify-between items-center">
+                        <a href="https://www.linkedin.com/in/isaac-jones-8a863a29a/" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
+                        Linkedin </a>
+                        </div>
+
+                        <div classNAme="flex justify-between items-center">
+                        <a href="https://github.com/IsaacPjones" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
+                        Github </a>
+                        </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">   
                     <div className="rounded-xl pl-6 hover:-translate-y-1 transition-all">
