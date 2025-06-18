@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import Isaac from "../assets/Isaac.jpeg";
+import Isaac from "../../assets/Isaac.jpeg";
 
 export const About = () => {
     const skills = [
@@ -15,7 +15,10 @@ export const About = () => {
         "Photography",
         "Mixed Martial Arts",
         "Watching movies",
-        "Video Games"
+        "Video Games",
+        "Cars",
+        "Nature",
+        "Cats",
     ];
 
     return ( <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -37,6 +40,8 @@ export const About = () => {
                     Outside of tech, I'm a big fan of the outdoors and spending time in nature. I enjoy photography, watching mixed martial arts, and being around animals, anything that lets me slow down and connect with the world around me.
                     Whether I'm hiking, working on a project, or learning something new, I'm always curious and hands-on.
                 </p>
+
+                <div className="mb-6">
                 <h3 className="text-2xl font-bold mb-3"> Where To Find Me</h3>
                 <div classNAme="flex justify-between items-center">
                         <a href="https://www.linkedin.com/in/isaac-jones-8a863a29a/" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
@@ -51,7 +56,14 @@ export const About = () => {
                         
                         <div classNAme="flex justify-between items-center">
                         <a href="https://www.flickr.com/people/203008390@N07/" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
-                        Flickr (see my photography) </a>
+                        Flickr (See my Photography) </a>
+                        </div>
+
+                        <div classNAme="flex justify-between items-center">
+                        <a href="https://www.instagram.com/isxxcj/" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
+                        Instagram (Also Post Photography here) </a>
+                        </div>
+
                         </div>
 
 

@@ -1,13 +1,17 @@
 import { RevealOnScroll } from "../RevealOnScroll"
+import coolpic from "../../assets/coolpic.JPG"
 
 
 
 
 export const Home = () => {
-    return (<section id="Home" className="min-h-screen flex items-center justify-center relative"
+    return (<section id="Home" className="min-h-screen flex items-center justify-center relative wb-4"
     >
         <RevealOnScroll>
         <div className="text-center z-10 px-"> 
+            <img src={coolpic} alt="A photo I took In Seattle with a good composition, to the left is a post with random sea object tied to it, in the foreground is grassy fields, in the background is the ocean" 
+            className="w-200 h-120 rounded-2xl mx-auto mb-6 border-1 border-gray-900 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+
             <h1 className="text-xl md:text-8xl font-bold mb-6 bg-cyan-500 bg-clip-text text-transparent leading-left">
                 Welcome!
             </h1>
@@ -15,7 +19,7 @@ export const Home = () => {
             <br></br>
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                Im a Computer Science and Business student at Simon Fraser University, driven to build useful, creative, and human centered digital experiences.
+                I'm a Computer Science and Business student at Simon Fraser University, driven to build useful, creative, and human centered digital experiences.
             </p>
 
             
