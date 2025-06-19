@@ -9,6 +9,7 @@ export const About = () => {
         "Python",
         "NumPy",
         "Pandas",
+        "CMATH",
     ];
 
     const Hobbies = [

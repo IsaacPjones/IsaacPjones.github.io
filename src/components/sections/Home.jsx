@@ -5,10 +5,10 @@ import coolpic from "../../assets/coolpic.JPG"
 
 
 export const Home = () => {
-    return (<section id="Home" className="min-h-screen flex items-center justify-center relative wb-4"
+    return (<section id="Home" className="min-h-screen flex items-center justify-center relative"
     >
         <RevealOnScroll>
-        <div className="text-center z-10 px-"> 
+        <div className="text-center z-10 px-4"> 
             <img src={coolpic} alt="A photo I took In Seattle with a good composition, to the left is a post with random sea object tied to it, in the foreground is grassy fields, in the background is the ocean" 
             className="w-200 h-120 rounded-2xl mx-auto mb-6 border-1 border-gray-900 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
 
