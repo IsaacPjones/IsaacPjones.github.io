@@ -1,5 +1,7 @@
 # Isaac Jones Mini Project
 
+[Website link](https://isaacpjones.github.io/)
+
 ## Project Details
 
 I wanted to use this opportunity to build a personal portfolio website. I believe this is a smart way to not only learn the basics of HTML, CSS, and JavaScript, but also to create a space where I can showcase my past projects and share a bit about myself with future employers.
@@ -31,3 +33,7 @@ Scroll further to find the Projects section. Here I will outline my projects. In
 
 Scroll more to find the **contact** section at the bottom. Here, I either want to have a form to fill out or just list my contact information and how to get a hold of me.
 
+## License
+
+I chose the MIT License because it seemed like the simplest and most straightforward option. It allows others to reuse the code and build on it freely. 
+I also went with it because Parsa recommended it in class.
