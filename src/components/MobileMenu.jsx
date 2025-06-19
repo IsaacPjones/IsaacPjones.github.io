@@ -15,7 +15,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                 </button>
 
                 <a> 
-                    <a href="#home" onClick={() => setMenuOpen(flase)} className={`text-2xl font-semibold text-white my-4 transform tansition-transform duration-300
+                    <a href="#home" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${
                         menuOpen 
                         ? "opacity-100 translate-y-0" 
@@ -24,7 +24,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                      `} 
                      >Home</a>
 
-                    <a href="#about" onClick={() => setMenuOpen(flase)} className={`text-2xl font-semibold text-white my-4 transform tansition-transform duration-300
+                    <a href="#about" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${
                         menuOpen 
                         ? "opacity-100 translate-y-0" 
@@ -32,7 +32,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                         }
                      `} >About Me</a>
 
-                    <a href="#projects" onClick={() => setMenuOpen(flase)} className={`text-2xl font-semibold text-white my-4 transform tansition-transform duration-300
+                    <a href="#projects" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${
                         menuOpen 
                         ? "opacity-100 translate-y-0" 
@@ -40,7 +40,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                         }
                      `} >Projects</a>
 
-                    <a href="#contact" onClick={() => setMenuOpen(flase)} className={`text-2xl font-semibold text-white my-4 transform tansition-transform duration-300
+                    <a href="#contact" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${
                         menuOpen 
                         ? "opacity-100 translate-y-0" 
