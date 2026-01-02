@@ -1,12 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from "vite"
+import react from "@vitejs/plugin-react"
+import tailwindcss from "@tailwindcss/vite"
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/',
+  base: "/",
   build: {
-    outDir: 'docs',         //bundle into docs/ instead of dist/
-    emptyOutDir: true       //clear docs/ on each build
-  }
+    outDir: "dist",
+    emptyOutDir: true,
+  },
 })
