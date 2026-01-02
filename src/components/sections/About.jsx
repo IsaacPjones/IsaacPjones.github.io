@@ -6,6 +6,13 @@ export const About = () => {
         "C",
         "C++",
         "SQL",
+        "Linux",
+        "Git",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Java",
         "Python",
         "NumPy",
         "Pandas",
@@ -15,7 +22,7 @@ export const About = () => {
     const Hobbies = [
         "Photography",
         "Mixed Martial Arts",
-        "Watching movies",
+        "Film",
         "Video Games",
         "Cars",
         "Nature",
@@ -35,35 +42,33 @@ export const About = () => {
             <div className="rounded-xl  pb-4 pl-8 border-white/10 border transition-all">
                 <p className="text-gray-300 mb-6">
                     <br></br>
-                    Hi I'm Isaac, a Computer Science and Business student at Simon Fraser University with a passion for building practical, creative solutions that people actually enjoy using.
-                    I love exploring how things work, whether it's writing code, tinkering with computer hardware, or getting under the hood of my car.
+                    Hi, I’m Isaac. I’m a Computer Science and Business student at Simon Fraser University with experience building real time, user focused software in 
+                    collaborative team environments. I enjoy working across the stack, from designing responsive front ends in React to integrating APIs, automating 
+                    deployments, and thinking carefully about performance, reliability, and usability.
 
-                    Outside of tech, I'm a big fan of the outdoors and spending time in nature. I enjoy photography, watching mixed martial arts, and being around animals, anything that lets me slow down and connect with the world around me.
-                    Whether I'm hiking, working on a project, or learning something new, I'm always curious and hands-on.
+                    Through projects like the Vancouver Transit Tracker, I’ve worked with modern web technologies, CI/CD pipelines, and agile workflows to deliver clean, maintainable code.
+                    I’m especially interested in systems that combine solid engineering practices with practical impact. Outside of software, I enjoy photography, mixed martial arts, and 
+                    spending time outdoors, which helps me stay curious, focused, and balanced in how I approach both learning and building.
                 </p>
 
                 <div className="mb-6">
                 <h3 className="text-2xl font-bold mb-3"> Where To Find Me</h3>
-                <div classNAme="flex justify-between items-center">
+                <div className="flex justify-between items-center">
                         <a href="https://www.linkedin.com/in/isaac-jones-8a863a29a/" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
                         Linkedin </a>
                         </div>
 
-                        <div classNAme="flex justify-between items-center">
+                        <div className="flex justify-between items-center">
                         <a href="https://github.com/IsaacPjones" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
                         Github </a>
                         </div>
 
                         
-                        <div classNAme="flex justify-between items-center">
+                        <div className="flex justify-between items-center">
                         <a href="https://www.flickr.com/people/203008390@N07/" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
                         Flickr (See my Photography) </a>
                         </div>
 
-                        <div classNAme="flex justify-between items-center">
-                        <a href="https://www.instagram.com/isxxcj/" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
-                        Instagram (Also Post Photography here) </a>
-                        </div>
 
                         </div>
 
