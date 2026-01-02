@@ -17,8 +17,8 @@ Additionally, I chose this tech stack to reflect the technologies I’ll be usin
 
 ## License
 
-I chose the MIT License because it seemed like the simplest and most straightforward option. It allows others to reuse the code and build on it freely. 
-I also went with it because Parsa recommended it in class.
+I chose the MIT License because it is a simple and straightforward option. It allows others to reuse the code and build on it freely. 
+I also went with it because it was recommended to me by my professor Parsa.
 
 ## Acknowledgements
 
