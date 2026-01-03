@@ -32,15 +32,9 @@ export const Projects = () => {
             
                     
 
-                    <h3 className="text-2xl font-extrabold mb-2">
-                        
-                    </h3>
-                    <p className ="text-gray-400 mb-4">
-                        
-                    </p>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {["JavaScript", "CSS", "React", "Agile"].map((tech, key) => (
-                            <span key={key} className="bg-[#fld] text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20
+                            <span key={key} className="bg-slate-900 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20
                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">{tech}</span>
                         ))}
                     </div>
@@ -79,35 +73,20 @@ export const Projects = () => {
             
                     
 
-                    <h3 className="text-2xl font-extrabold mb-2">
-                        
-                    </h3>
-                    <p className ="text-gray-400 mb-4">
-                        
-                    </p>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {["Python", "NumPy", "Pandas", "Scikit-learn", "TensorFlow", "PyTorch", "PettingZoo", "PyYAML"].map((tech, key) => (
-                            <span key={key} className="bg-[#fld] text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20
+                            <span key={key} className="bg-slate-900 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20
                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">{tech}</span>
                         ))}
                     </div>
-
-                    
-
                     <div>
-                <img src={algo} alt="Model training loop visualization"
-                className="w-140 max-w-5xl mx-auto rounded-xl shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
-            </div>
-             
-                    <br></br>
-            <div>
-                <img src={Connect4} alt="A screenshot of the Connect 4 agent playing against a random opponent"
-                className="w-100 max-w-5xl mx-auto rounded-xl shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
-            </div>
-
-
-                    
-
+                        <img src={algo} alt="Model training loop visualization"
+                        className="w-120 max-w-5xl mx-auto rounded-xl shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+                    </div>
+                    <div>
+                        <img src={Connect4} alt="A screenshot of the Connect 4 agent playing against a random opponent"
+                        className="w-100 max-w-5xl mx-auto rounded-xl shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+                    </div>
                 </div>
 
 
@@ -120,8 +99,8 @@ export const Projects = () => {
                     We analyzed 6,500+ UFC (A mixed martial arts fighting organization) bouts from 2010 to 2024 to measure how fighter attributes (height, reach, age, experience, stance) influence outcomes.
                     After cleaning and standardizing the data (e.g. fuzzy-matching names, merging decision categories), we applied descriptive statistics, one-sample t tests, OLS regression and trained three classifiers (Logistic Regression, Random Forest, K-Nearest Neighbors). 
                     Logistic Regression performed best with ~59% accuracy and the highest AUC. 
-                    <h3 className="pt-8"> <strong>Major findings: </strong> decision finishes are increasing, height and reach give small win-rate gains, southpaw stance has an edge, and heavyweights gain a clear advantage when weight differences exceed 30 lbs. </h3>
                     </p>
+                    <h3 className="pt-8 text-gray-300"> <strong>Major findings: </strong> decision finishes are increasing, height and reach give small win-rate gains, southpaw stance has an edge, and heavyweights gain a clear advantage when weight differences exceed 30 lbs. </h3>
 
                     <h4 className="text-2xl font-semibold mb-2">Utilities &amp; Libraries Used</h4>
                     <ul className="list-disc list-inside text-gray-300 space-y-1 pb-6">
@@ -133,7 +112,7 @@ export const Projects = () => {
 
                     <div className="flex flex-wrap gap-2 mb-4">
                         {["Python", "NumPy", "Pandas", "Seaborn", "Matplotlib", "fuzzywuzzy"].map((tech, key) => (
-                            <span key={key} className="bg-[#fld] text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20
+                            <span key={key} className="bg-slate-900 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20
                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">{tech}</span>
                         ))}
                     </div>
@@ -145,14 +124,13 @@ export const Projects = () => {
 
             
                     </div>
-                    <div>
-                            
-                        <img src={MMA} alt="A line graph displaying the win rates of the fighter with a reach or height advantage. A winrate is shown for each weight class" 
-                        className="w-210 h-120 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
-                    </div>
+            <div>
+                <img src={MMA} alt="A line graph displaying the win rates of the fighter with a reach or height advantage. A winrate is shown for each weight class" 
+                className="w-full mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+            </div>
             <div>
                 <img src={MMA2} alt="A bar graph outlining the win rates of of different weight differences within the heavyweight class" 
-                    className="w-190 h-120 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+                className="w-180 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
             </div>
             </div>
 
@@ -170,26 +148,20 @@ export const Projects = () => {
                          
                     </p>
 
-                    <h3 className="text-2xl font-extrabold mb-2">
-                        
-                    </h3>
-                    <p className ="text-gray-400 mb-4">
-                        
-                    </p>
                     <div className="flex flex-wrap gap-2 mb-4">
                         {["C++", "CMath"].map((tech, key) => (
-                            <span key={key} className="bg-[#fld] text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20
+                            <span key={key} className="bg-slate-900 text-cyan-500 py-1 px-3 rounded-full text-sm hover:bg-cyan-500/20
                                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">{tech}</span>
                         ))}
                     </div>
 
-                    <div classNAme="flex justify-between items-center">
+                    <div className="flex justify-between items-center">
                         <a href="https://github.com/IsaacPjones/Newton-Fractal-Visulization" className="text-cyan-500 hover:text-cyan-400 transition-colors"> 
                         View Github Repo </a>
                     </div>
 
                     <div>
-                <img src={Newton} alt="A PPM image replicating a newton fractal structure, the main colors are yellow, blue and pink" className="w-190 h-180 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
+                <img src={Newton} alt="A PPM image replicating a newton fractal structure, the main colors are yellow, blue and pink" className="w-180 mx-auto pt-4 mb-6 shadow-lg hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all" />
             </div>
 
 
