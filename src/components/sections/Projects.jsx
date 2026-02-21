@@ -9,7 +9,6 @@ import algo from "../../assets/algo.png";
 
 export const Projects = () => {
     return <section id="projects" className="min-h-screen flex items-center justify-center py-20">
-        <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-6xl font-bold mb-8 bg-cyan-500 bg-clip-text text-transparent text-center">
                 Featured Projects
@@ -173,7 +172,6 @@ export const Projects = () => {
             
 
         </div>
-        </RevealOnScroll>
 
     </section>
     };
