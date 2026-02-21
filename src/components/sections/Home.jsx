@@ -1,5 +1,5 @@
-import { RevealOnScroll } from "../RevealOnScroll"
-import coolpic from "../../assets/coolpic.JPG"
+import { RevealOnScroll } from "../RevealOnScroll";
+import coolpic from "../../assets/coolpic.JPG";
 
 
 
